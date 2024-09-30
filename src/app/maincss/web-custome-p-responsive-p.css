@@ -1,0 +1,437 @@
+@media only screen and (max-width:767px) {
+    .about-us-in {
+        position: absolute;
+        margin-top: 10px;
+        right: -220px;
+        display: none;
+    }
+
+    .collection-section {
+        height: auto !important;
+    }
+
+    .award-section {
+        height: auto;
+    }
+
+    .bronz-logo {
+        bottom: 0 !important;
+        left: 10px;
+        margin-left: -20px;
+    }
+
+    .collection-img {
+        width: 150px;
+    }
+
+    .un-mar::after,
+    .un-mar-m::after {
+        margin-left: auto;
+        margin-right: auto;
+        left: 50%;
+    }
+
+    .content-head-image {
+        height: 290px;
+    }
+
+    .contacts-list-cus {
+        flex-direction: column !important;
+    }
+
+    .contacts-list-cus p {
+        text-align: center;
+    }
+
+    .global-image {
+        margin: 20px 0;
+    }
+
+    .offices-section {
+        margin-bottom: 20px;
+    }
+
+    .w-190 {
+        width: auto;
+    }
+
+    .font-14-sm {
+        font-size: 14px !important;
+    }
+
+    .font-23-sm {
+        font-size: 23px !important;
+    }
+
+    .w-90 {
+        width: 100% !important;
+    }
+
+    #footer-video {
+        width: 100%;
+        display: none !important;
+        object-fit: cover;
+    }
+
+    .erp-img {
+        margin-top: 20px;
+    }
+
+    .font-24 {
+        font-size: 20px;
+    }
+
+    .mb-sm-4 {
+        margin-bottom: 20px !important;
+    }
+
+    .mobile-app-carousel-main {
+        height: auto !important;
+        padding: 20px 0 !important;
+    }
+
+    .mobile-worked-image {
+        width: 100%;
+        height: auto !important;
+    }
+
+    .w-39 {
+        width: 100% !important;
+    }
+
+    .mobile-work {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-worked-bg {
+        height: 100% !important;
+    }
+
+    .ranges-section {
+        bottom: 0 !important;
+        top: 10px;
+    }
+
+    .font-20 {
+        font-size: 18px !important;
+    }
+
+    .mobile-app-carousel .owl-nav button.owl-prev {
+        left: 0 !important;
+    }
+
+    .mobile-app-carousel .owl-nav button.owl-next {
+        right: 0 !important;
+    }
+
+    .lan-img {
+        width: 100px;
+    }
+
+    .comm-img {
+        display: none !important;
+    }
+
+    .ecom-img-bg::before,
+    .project-img-cus::before {
+        content: none;
+    }
+
+    .project-img-cus {
+        width: 230px !important;
+    }
+
+    .custom-project .row {
+        flex-direction: column !important;
+    }
+
+    .ecom-project-img {
+        width: 100px !important;
+    }
+
+    .line-hight-p.w-75 {
+        width: 200% !important;
+        margin-bottom: 10px;
+    }
+
+    .custom-project .owl-nav button span {
+        display: block !important;
+        color: #4b47b9;
+        position: absolute;
+        top: -30px !important;
+        left: 150px !important;
+    }
+
+    .specila-text-bg {
+        margin-bottom: 15px;
+    }
+
+    .mob-project-logo {
+        width: 80px !important;
+    }
+
+    .ecom-custom-project .item .py-5 .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ecom-custom-project .owl-nav .owl-next span {
+        left: 100% !important;
+    }
+
+    .ecom-custom-project .owl-nav .owl-prev span {
+        left: -10px;
+    }
+
+    .modul-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .gap-20 {
+        gap: 20px !important;
+    }
+
+    .mb-cus-m {
+        margin-bottom: 20px !important;
+    }
+
+    br {
+        display: none;
+    }
+
+    .mt-s-3 {
+        margin-top: 3rem !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services-img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
+    .border-20 {
+        border: 5px solid #340A6A !important;
+    }
+
+    .iconTransition .font-18 {
+        font-size: 10px !important;
+    }
+
+    .font-19{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .about-us-in {
+        position: absolute;
+        right: -80px;
+        margin-top: 20px;
+    }
+
+    .award-section {
+        height: auto;
+    }
+
+    .collection-section {
+        height: auto !important;
+        position: relative;
+        z-index: 1;
+    }
+
+    .un-mar::after,
+    .un-mar-m::after {
+        margin-left: auto;
+        margin-right: auto;
+        left: 53%;
+    }
+
+    .bronz-logo {
+        position: relative;
+        bottom: 5px;
+        left: -10px;
+    }
+
+    .contacts-list-cus {
+        flex-direction: column !important;
+    }
+
+    .contacts-list-cus p {
+        text-align: center;
+    }
+
+    #footer-video {
+        width: 100%;
+        display: none;
+        object-fit: cover;
+    }
+
+    .erp-img {
+        margin-top: 20px;
+    }
+
+    .mobile-app-carousel-main {
+        height: auto !important;
+    }
+
+    .mobile-app-carousel .owl-nav button.owl-prev {
+        left: 0 !important;
+    }
+
+    .mobile-app-carousel .owl-nav button.owl-next {
+        right: 0 !important;
+    }
+
+    .ranges-section {
+        bottom: 0 !important;
+        top: 10px;
+    }
+
+    .mobile-worked-image {
+        width: auto;
+        height: 100% !important;
+    }
+
+    .w-39 {
+        width: 100% !important;
+    }
+
+    .mobile-work {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-worked-bg {
+        height: 100% !important;
+    }
+
+    .lan-img {
+        width: 100px;
+    }
+
+    .comm-img {
+        display: none !important;
+    }
+
+    .webiiste-logo a img {
+        position: relative;
+        left: 65px !important;
+    }
+
+    .mb-cus-m {
+        margin-bottom: 20px !important;
+    }
+
+    .about-us-in {
+        display: none;
+    }
+
+    .ecom-project-img {
+        width: 210px !important;
+    }
+
+    .ecom-img-bg::before,
+    .project-img-cus::before {
+        width: 335px;
+        height: 335px;
+    }
+
+    .w-md-50 {
+        width: 50% !important;
+    }
+
+    .modul-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .custome-position {
+        top: 100px !important;
+    }
+
+    .custome-position-services {
+        top: 40px !important;
+        margin-bottom: 40px;
+    }
+
+    .services-img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
+
+@media(min-width:992px) and (max-width:1280px) {
+    .about-us-in {
+        position: absolute;
+    }
+
+    .erp-img {
+        margin-top: 20px;
+    }
+
+    .mobile-app-carousel .owl-nav button.owl-prev {
+        left: 50px !important;
+    }
+
+    .mobile-app-carousel .owl-nav button.owl-next {
+        right: 50px !important;
+    }
+
+    .ranges-section {
+        bottom: 0 !important;
+        top: 10px;
+    }
+
+    .mobile-worked-image {
+        width: auto;
+        height: 100% !important;
+    }
+
+    .w-39 {
+        width: 100% !important;
+    }
+
+    .mobile-work {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-worked-bg {
+        height: 100% !important;
+    }
+
+    .lan-img {
+        width: 150px;
+    }
+
+    .comm-img {
+        display: none !important;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1368px) {
+    .mobile-app-service-box {
+        min-height: 100%;
+    }
+
+    .min-h-project-name{
+        min-height: 71px;
+    }
+}
+
+@media(min-width:1800px) {
+    .content-head-image {
+        height: 725px;
+    }
+}
+
+@media only screen and (max-height:575.98px) and (orientation:landscape) {
+    .global-image {
+        padding-top: 20px;
+        height: 380px;
+    }
+
+    .erp-img {
+        margin-top: 20px;
+    }
+}
