@@ -21,7 +21,6 @@ export async function generateMetadata() {
 
   try {
     const loginData = await login();
-
     if (!loginData) {
       throw new Error("No authentication token found. Please login first.");
     }
@@ -29,14 +28,11 @@ export async function generateMetadata() {
     const response = await axios.get(
       `https://admin.guisrilanka.com/api/categories/get/ecommerce-website-srilanka`,
       {
-        headers: {
-          Authorization: `Bearer ${loginData}`,
-        },
+        headers: { Authorization: `Bearer ${loginData}` },
       }
     );
 
     data = response.data;
-
     return {
       title: data.payload.meta_title,
       description: data.payload.meta_description,
@@ -59,7 +55,6 @@ export default async function EcommercePage() {
 
   try {
     const loginData = await login();
-
     if (!loginData) {
       throw new Error("No authentication token found. Please login first.");
     }
@@ -67,9 +62,7 @@ export default async function EcommercePage() {
     const response = await axios.get(
       `https://admin.guisrilanka.com/api/categories/get/ecommerce-website-srilanka`,
       {
-        headers: {
-          Authorization: `Bearer ${loginData}`,
-        },
+        headers: { Authorization: `Bearer ${loginData}` },
       }
     );
 
